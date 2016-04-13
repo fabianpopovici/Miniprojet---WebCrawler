@@ -5,7 +5,8 @@ Fonctionnant sur le même principe, certains robots malveillants (spambots) sont
 
 En français, depuis 2013, crawler est remplaçable par le mot collecteur.
 
-PRINCIPES DE FONCTIONNEMENT: 
+<b>PRINCIPES DE FONCTIONNEMENT:</b> 
+
 Pour indexer de nouvelles ressources, un robot procède en suivant récursivement les hyperliens trouvés à partir d'une page pivot. Par la suite, il est avantageux de mémoriser l'URL de chaque ressource récupérée et d'adapter la fréquence des visites à la fréquence observée de mise à jour de la ressource. Toutefois, si le robot respecte les règles du fichier robots.txt, alors de nombreuses ressources échappent à cette exploration récursive. Cet ensemble de ressources inexploré est appelé Web profond ou Web invisible.
 
 Un fichier d'exclusion (robots.txt) placé dans la racine d'un site Web permet de donner aux robots une liste de ressources à ignorer. Cette convention permet de réduire la charge du serveur Web et d'éviter des ressources sans intérêt. Toutefois, certains robots ne se préoccupent pas de ce fichier.
