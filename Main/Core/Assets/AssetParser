@@ -1,0 +1,16 @@
+package com.soulgalore.crawler.core.assets;
+
+import java.util.Set;
+
+import org.jsoup.nodes.Document;
+
+import com.soulgalore.crawler.core.CrawlerURL;
+
+/**
+ * Interface for parsing all the assets of a HTML document.
+ * 
+ */
+public interface AssetsParser {
+
+  Set<CrawlerURL> getAssets(Document doc, String referer);
+}
